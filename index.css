@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.all{
+    width: 70%;
+    height: 130vh;
+    position: relative;
+    left: 15%;
+    top: 0;
+    box-shadow: 0px 7px 29px 0px #A9A9A9;
+}
+.user{
+    width: 6.5%;
+    border-radius: 100%;
+    position: relative;
+    top: 2.5vh;
+    left: 92%;
+    cursor: pointer;
+    height: 10vh;
+    background-image: url(image/user.png);
+    background-size: cover;
+    transition: background-image 0.3s;
+} 
+
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(236, 236, 236);
+}
+.m{
+    margin-left: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#money{
+    font-size: 2rem;
+    font-family:fantasy;
+    position: absolute;
+    z-index: 2;
+    left: 4.5%;
+    top: 5.5vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    background-color: transparent;
+    color: #32CD32;
+}
+#wm{
+    width: 17%;
+    height: 8vh;
+    background-color:#678cfa ;
+    color: #fff;
+    font-family:fantasy;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 62%;
+    z-index: 2;
+    top: 4vh;
+    cursor: pointer;
+}
+
+#wm2{
+    width: 17%;
+    height: 8vh;
+    background-color:#b4b4b4 ;
+    color: #fff;
+    font-family:fantasy;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    z-index: 2;
+    position: absolute;
+    left: 43%;
+    top: 4vh;
+    cursor: pointer;
+}
+.user:hover{
+    background-image: url(image/change.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.ms{
+    width: 77%;
+    height: 8vh;
+    background-color: #cfcfcf;
+    position: absolute;
+    z-index: 1;
+    top: 4vh;
+    left: 2%;
+
+}
+
+#wm3{
+    width: 8%;
+    height: 8vh;
+    background-color: rgb(104, 104, 104);
+    color: #fff;
+    font-family:fantasy;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    z-index: 2;
+    position: absolute;
+    left: 33%;
+    top: 4vh;
+    cursor: pointer;
+}
+
+#wm4{
+    width: 15%;
+    height: 8vh;
+    background-color: rgb(104, 104, 104);
+    color: #fff;
+    font-family:fantasy;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    z-index: 2;
+    position: absolute;
+    left: 16%;
+    top: 4vh;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.youtube{
+    background-image: url(image/youtube.png);
+    width: 30%;
+    position: absolute;
+    height: 40vh;
+    background-size: cover;
+    transform: scale(0.3);
+    top: -13vh;
+    left: 70.5%;
+    z-index: 4;
+}
+
+.als{
+    width: 95%;
+    position: relative;
+    height: 90vh;
+    background-color: rgb(209, 209, 209);
+    top: 3vh;
+    left: 2.5%;
+}
+
+
+.spin{
+    width: 50%;
+    transform: scale(0.6);
+    height: 60vh;
+    position: relative;
+    left: -6%;
+    top: -6vh;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 3px black;
+    background-image: url(image/spin.jpg);
+    background-size: cover;
+    transition: transform 0.3s;
+}
+.spin:hover{
+    transform: scale(0.65);
+}
+
+
+.wip{
+    width: 50%;
+    transform: scale(0.6);
+    height: 60vh;
+    position: absolute;
+    left: 28%;
+    top: -6vh;
+    border-radius: 15px;
+    cursor: pointer;   
+     background-size: cover;
+    box-shadow: 0px 0px 25px 3px black;
+    background-image: url(image/wip.jpg);
+    transition: transform 0.3s;
+}
+.wip:hover{
+    transform: scale(0.65);
+}
+
+.free{
+    width: 50%;
+    transform: scale(0.6);
+    height: 60vh;
+    position: absolute;
+    left: -6%;
+    top: 35vh;
+    border-radius: 15px;
+    cursor: pointer;   
+     background-size: cover;
+    box-shadow: 0px 0px 25px 3px black;
+    background-image: url(image/free.jpg);
+    transition: transform 0.3s;
+}
+.free:hover{
+    transform: scale(0.65);
+}
+
+.monefree{
+    width: 50%;
+    transform: scale(0.6);
+    height: 60vh;
+    position: absolute;
+    left: 28%;
+    top: 35vh;
+    border-radius: 15px;
+    cursor: pointer;   
+     background-size: cover;
+    box-shadow: 0px 0px 25px 3px black;
+    background-image: url(image/monefree.jpg);
+    transition: transform 0.3s;
+}
+.monefree:hover{
+    transform: scale(0.65);
+}
+.mnacac{
+    width: 25%;
+    height: 76vh;
+    position: absolute;
+    left: 71.5%;
+    top: 6vh;
+    background-color: rgb(228, 228, 228);
+
+}
